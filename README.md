@@ -42,7 +42,7 @@ I strongly suggest to use [autoprefixer](https://github.com/postcss/autoprefixer
 
 ## Contribute
 
-I will try to keep the two framworks in sync, but you can also help :-)
+I will try to keep the two frameworks in sync, but you can also help :-)
 If you find bugs or idea for improvements, feel free to [add a new issue](https://github.com/gpbl/material-ui-sass/issues/new).
 
 If you'd like to send pull requests, please try to adopt the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less). 
