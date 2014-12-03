@@ -29,7 +29,7 @@
 //   @media @device-medium {
 
 //     .feature-container {
-//       .clearfix();
+//       @include clearfix();
 //       max-width: 906px;
 //     }
 
