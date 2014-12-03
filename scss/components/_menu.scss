@@ -40,7 +40,7 @@
     line-height: $menu-item-height;
     padding-left: $menu-item-padding;
     padding-right: $menu-item-padding;
-    background-color: fade($menu-item-hover-color, 0%);
+    background-color: rgba($menu-item-hover-color, 0);
 
     * {
       user-select: none;
