@@ -22,7 +22,7 @@ h1 {
 
 ```
 
-You can customize the default values overriding those in [custom-variables.scss](material-ui/variables/custom-variables.scss). Include them before importing material-ui: 
+You can customize the default values overriding those in [_custom-variables.scss](material-ui/variables/_custom-variables.scss). Include them before importing material-ui: 
 
 ```scss
 
