@@ -54,27 +54,27 @@ Main sources:
 scss
 ├── components
 │   ├── [X] app-bar.scss
-│   ├── [ ] card.scss
+│   ├── [X] card.scss
 │   ├── [ ] checkbox.scss
 │   ├── [-] components.scss
-│   ├── [ ] dialog.scss
-│   ├── [ ] drop-down-icon.scss
-│   ├── [ ] drop-down-menu.scss
-│   ├── [ ] enhanced-button.scss
-│   ├── [ ] flat-button.scss
+│   ├── [X] dialog.scss
+│   ├── [X] drop-down-icon.scss
+│   ├── [X] drop-down-menu.scss
+│   ├── [X] enhanced-button.scss
+│   ├── [X] flat-button.scss
 │   ├── [ ] floating-action-button.scss
-│   ├── [ ] icon-button.scss
-│   ├── [ ] icon.scss
+│   ├── [X] icon-button.scss
+│   ├── [X] icon.scss
 │   ├── [ ] input.scss
 │   ├── [ ] left-nav.scss
-│   ├── [ ] menu.scss
-│   ├── [ ] paper-button.scss
-│   ├── [ ] paper.scss
+│   ├── [X] menu.scss
+│   ├── [X] paper-button.scss
+│   ├── [X] paper.scss
 │   ├── [ ] radio-button.scss
-│   ├── [ ] raised-button.scss
-│   ├── [ ] ripple.scss
+│   ├── [X] raised-button.scss
+│   ├── [X] ripple.scss
 │   ├── [X] subheader.scss
-│   ├── [X ] table.scss
+│   ├── [X] table.scss
 │   ├── [X] toast.scss
 │   ├── [ ] toggle.scss
 │   └── [X] toolbar.scss
@@ -85,17 +85,15 @@ scss
 │   ├── [X] keylines.scss
 │   ├── [X] layouts.scss
 │   └── [X] typography.scss
-├── [ ] main.scss
 ├── mixins
 │   ├── [X] clearfix.scss
-│   ├── [ ] lesshat.scss
-│   ├── [-] mixins.scss
+│   ├── [X] mixins.scss
 │   ├── [X] no-wrap.scss
-│   ├── [ ] ripple.scss
-│   └── [ ] transitions.scss
+│   ├── [X] ripple.scss
+│   └── [X] transitions.scss
 ├── resets
 │   └── [X] typography-resets.scss
-├── [ ] scaffolding.scss
+├── [X] scaffolding.scss
 └── variables
     ├── [X] colors.scss
     ├── [X] custom-variables.scss
