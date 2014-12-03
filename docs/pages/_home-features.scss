@@ -1,7 +1,6 @@
 .home-features {
   
-  // FIXME: Add mixin
-  // * { .ease-out(); }
+  * { @include ease-out(); }
 
   .home-feature-heading {
     @extend .mui-font-style-title;
