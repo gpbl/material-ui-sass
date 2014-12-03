@@ -51,9 +51,9 @@
 //   line-height: @app-bar-height;
 //   .mui-font-weight-light;
 //   background-color: @primary-1-color;
-//   padding-left: @desktop-gutter;
+//   padding-left: $desktop-gutter;
 //   padding-top: 0;
-//   margin-bottom: @desktop-gutter-mini;
+//   margin-bottom: $desktop-gutter-mini;
 // }
 
 // .baseline-grid {
@@ -69,7 +69,7 @@
 //     display: inline-block;
 //     text-transform: uppercase;
 //     color: $min-black;
-//     padding: @desktop-gutter-mini;
+//     padding: $desktop-gutter-mini;
 //     border-right: solid 1px @border-color;
 //     border-bottom: solid 1px @border-color;
 //     margin-bottom: 0;
@@ -78,7 +78,7 @@
 
 //   .example-block,
 //   .code-block {
-//     padding: @desktop-gutter;
+//     padding: $desktop-gutter;
 //   }
 
 //   .code-block {

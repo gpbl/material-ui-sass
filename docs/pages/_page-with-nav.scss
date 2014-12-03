@@ -6,12 +6,12 @@
 //   }
 
 //   .page-with-nav-content {
-//     padding: @desktop-gutter;
-//     max-width: (@desktop-keyline-increment * 14);
+//     padding: $desktop-gutter;
+//     max-width: ($desktop-keyline-increment * 14);
 //   }
 
 //   @media @device-medium {
-//     @subNavWidth: (@desktop-keyline-increment * 3);
+//     @subNavWidth: ($desktop-keyline-increment * 3);
 
 //     position: relative;
 

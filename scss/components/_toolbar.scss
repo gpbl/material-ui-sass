@@ -15,7 +15,7 @@
 //   background-color: @toolbar-background-color;
 //   height: @toolbar-height;
 //   line-height: @toolbar-height;
-//   padding: 0 @desktop-gutter;
+//   padding: 0 $desktop-gutter;
 //   width: 100%;
 //   //.lh-box-shadow(0 1px 4px rgba(0, 0, 0, 0.24));
 
@@ -23,21 +23,21 @@
 //     position: relative;
 
 //     .mui-toolbar-title {
-//       padding-right: @desktop-gutter-less;
+//       padding-right: $desktop-gutter-less;
 //     }
 
 //     .mui-toolbar-separator {
 //       background-color: @toolbar-separator-color;
 //       display: inline-block;
-//       height: @desktop-gutter-more;
-//       margin-left: @desktop-gutter;
+//       height: $desktop-gutter-more;
+//       margin-left: $desktop-gutter;
 //       position: relative;
 //       top: 12px;
 //       width: 1px;
 //     }
 
 //     .mui-paper-button {
-//       margin: 0 @desktop-gutter;
+//       margin: 0 $desktop-gutter;
 //       position: relative;
 //       top: -2px;
 //       vertical-align: middle;
@@ -46,7 +46,7 @@
 //     .mui-drop-down-menu {
 //       color: $light-black;
 //       display: inline-block;
-//       margin-right: -@desktop-gutter;
+//       margin-right: -$desktop-gutter;
 
 //       .mui-menu-control-bg {
 //         background-color: @toolbar-menu-hover-color !important;
@@ -70,7 +70,7 @@
 //       color: @toolbar-icon-color;
 //       cursor: pointer;
 //       line-height: @toolbar-height;
-//       padding-left: @desktop-gutter;
+//       padding-left: $desktop-gutter;
 
 //       &:hover {
 //         color: $dark-black;
