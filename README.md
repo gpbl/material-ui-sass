@@ -11,6 +11,10 @@ To help the conversion from Less to Sass, we could run locally the material-ui d
 
 This obviously means we need to sassify also the documentation site, but that's not the hard part :)
 
+### IRC channel
+
+If you'd like to join the development, you could enter #material-ui-sass channel on Freenode.
+
 ### Start the documentation site
 
 After running `npm install`, start the documentation site from the `node_modules` directory:
