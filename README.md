@@ -86,7 +86,7 @@ scss
 │   ├── [ ] ripple.scss
 │   └── [ ] transitions.scss
 ├── resets
-│   └── [ ] typography-resets.scss
+│   └── [X] typography-resets.scss
 ├── [ ] scaffolding.scss
 └── variables
     ├── [ ] colors.scss
