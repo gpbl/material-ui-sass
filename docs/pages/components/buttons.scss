@@ -1,0 +1,19 @@
+.button-examples {
+  .clearfix();
+
+  .button-example-container {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .button-example-group {
+    float: left;
+    width: 50%;
+  }
+
+  @media @device-medium {
+    .button-example-group {
+      width: 33%;
+    }
+  }
+}

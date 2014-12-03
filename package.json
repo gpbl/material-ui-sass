@@ -1,0 +1,31 @@
+{
+  "name": "material-ui-sass",
+  "version": "0.0.1",
+  "description": "SASS version for the material-ui CSS framework",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-sass": "^1.1.0",
+    "gulp-sourcemaps": "^1.2.8",
+    "material-ui": "git://github.com/callemall/material-ui.git#master"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpbl/material-ui-sass.git"
+  },
+  "keywords": [
+    "material-ui",
+    "sass",
+    "reactjs",
+    "react"
+  ],
+  "author": "Giampaolo Bellavite",
+  "bugs": {
+    "url": "https://github.com/gpbl/material-ui-sass/issues"
+  },
+  "homepage": "https://github.com/gpbl/material-ui-sass"
+}

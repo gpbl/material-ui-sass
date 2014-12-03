@@ -1,0 +1,18 @@
+.paper-examples {
+
+  .mui-paper {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+
+  @media @device-medium {
+    .clearfix();
+
+    .paper-examples-group {
+      float: left;
+      width: 33%;
+    }
+  }
+}
