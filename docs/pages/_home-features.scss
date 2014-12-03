@@ -3,7 +3,7 @@
 //   * { .ease-out(); }
 
 //   .home-feature-heading {
-//     .mui-font-style-title;
+//     @extend .mui-font-style-title;
 //     background-color: $grey-200;
 //     text-align: center;
 //     margin: 0;

@@ -13,12 +13,12 @@
 //     max-width: 575px;
 
 //     h2 {
-//       .mui-font-style-title;
+//       @extend .mui-font-style-title;
 //     }
 
 //     h1, h2 {
 //       color: $dark-white;
-//       .mui-font-weight-light;
+//       @extend .mui-font-weight-light;
 //     }
 
 //     .demo-button, .github-button {
@@ -42,9 +42,9 @@
 //       }
 
 //       h2 {
-//         .mui-font-style-headline;
+//         @extend .mui-font-style-headline;
 //         color: $dark-white;
-//         .mui-font-weight-light;
+//         @extend .mui-font-weight-light;
 //       }
 //     }
 //   }

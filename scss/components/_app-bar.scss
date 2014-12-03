@@ -14,7 +14,7 @@
 //   }
 
 //   .mui-app-bar-title {
-//     .mui-font-style-headline;
+//     @extend .mui-font-style-headline;
 //     color: $app-bar-text-color;
 //     padding-top: 0;
 //     line-height: $desktop-keyline-increment;

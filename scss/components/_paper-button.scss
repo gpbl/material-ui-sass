@@ -6,7 +6,7 @@
 //   $primary-hover-color: darken($paper-button-primary-color, 10%);
 //   $primary-flat-hover-color: lighten($paper-button-primary-color, 30%);
 
-//   .mui-font-style-button;
+//   @extend .mui-font-style-button;
 
 //   //To fix text selection on double click
 //   .lh-user-select(none);
