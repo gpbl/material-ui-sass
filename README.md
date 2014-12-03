@@ -79,10 +79,10 @@ scss
 │   └── [ ] typography.scss
 ├── [ ] main.scss
 ├── mixins
-│   ├── [ ] clearfix.scss
+│   ├── [X] clearfix.scss
 │   ├── [ ] lesshat.scss
-│   ├── [ ] mixins.scss
-│   ├── [ ] no-wrap.scss
+│   ├── [-] mixins.scss
+│   ├── [X] no-wrap.scss
 │   ├── [ ] ripple.scss
 │   └── [ ] transitions.scss
 ├── resets
