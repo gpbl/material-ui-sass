@@ -3,10 +3,10 @@
 // @toolbar-icon-color: rgba(0, 0, 0, .40);
 // @toolbar-separator-color: rgba(0, 0, 0, .175);
 // @toolbar-menu-hover-color: rgba(0, 0, 0, .10);
-// @toolbar-menu-hover-color: @white;
+// @toolbar-menu-hover-color: $white;
 
 // .mui-toolbar-container {
-//   background-color: @white;
+//   background-color: $white;
 //   height: 320px;
 //   width: 960px;
 // }
@@ -44,7 +44,7 @@
 //     }
 
 //     .mui-drop-down-menu {
-//       color: @light-black;
+//       color: $light-black;
 //       display: inline-block;
 //       margin-right: -@desktop-gutter;
 
@@ -73,7 +73,7 @@
 //       padding-left: @desktop-gutter;
 
 //       &:hover {
-//         color: @dark-black;
+//         color: $dark-black;
 //         z-index: 1;
 //       }
 //     }
