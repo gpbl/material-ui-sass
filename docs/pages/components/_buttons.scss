@@ -1,5 +1,5 @@
 .button-examples {
-  .clearfix();
+  @include clearfix();
 
   .button-example-container {
     text-align: center;
@@ -11,7 +11,7 @@
     width: 50%;
   }
 
-  @media @device-medium {
+  @media #{$device-medium} {
     .button-example-group {
       width: 33%;
     }

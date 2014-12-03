@@ -7,8 +7,8 @@
     margin-bottom: 64px;
   }
 
-  @media @device-medium {
-    .clearfix();
+  @media #{$device-medium} {
+    @include clearfix();
 
     .paper-examples-group {
       float: left;

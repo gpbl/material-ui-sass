@@ -110,14 +110,14 @@ Documentation site:
 ├── [X] component-info.less
 ├── [X] footer.less
 ├── layout
-│   └── [ ] full-width-section.less
+│   └── [X] full-width-section.less
 ├── [-] main.less
 └── pages
-    ├── [ ] components
-    │   ├── [ ] buttons.less
-    │   ├── [ ] icon.less
-    │   └── [ ] paper.less
-    ├── [ ] get-started-page.less
+    ├── components
+    │   ├── [X] buttons.less
+    │   ├── [X] icon.less
+    │   └── [X] paper.less
+    ├── [X] get-started-page.less
     ├── [ ] home-contribute.less
     ├── [ ] home-features.less
     ├── [ ] home-page-hero.less

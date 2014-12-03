@@ -10,17 +10,17 @@
 @import "color-palette";
 @import "component-info";
 @import "footer";
-// @import "layout/full-width-section.less";
+@import "layout/full-width-section";
 
-// @import "pages/get-started-page.less";
-// @import "pages/home-contribute.less";
-// @import "pages/home-features.less";
-// @import "pages/home-page-hero.less";
-// @import "pages/home-purpose.less";
-// @import "pages/page-with-nav.less";
-// @import "pages/components/buttons.less";
-// @import "pages/components/icon.less";
-// @import "pages/components/paper.less";
+@import "pages/get-started-page";
+@import "pages/home-contribute";
+@import "pages/home-features";
+@import "pages/home-page-hero";
+@import "pages/home-purpose";
+@import "pages/page-with-nav";
+@import "pages/components/buttons";
+@import "pages/components/icon";
+@import "pages/components/paper";
 
 // a {
 //   color: @accent-1-color;
