@@ -40,7 +40,15 @@ While editing our Sass files, we will see a live preview of our changes.
 
 ## Status
 
-Here a list of the files that need to be done yet. PS. The `[ ]` is an empty checkbox :(
+Here a list of the files that need to be done yet. 
+
+```
+[X] = "done"
+[-] = "partially done"
+[ ] = "to do!"
+```
+
+Main sources:
 
 ```
 scss
@@ -70,13 +78,13 @@ scss
 │   ├── [ ] toast.scss
 │   ├── [ ] toggle.scss
 │   └── [ ] toolbar.scss
-├── [ ] components.scss
+├── [-] components.scss
 ├── core
 │   ├── [ ] base.scss
-│   ├── [ ] core.scss
+│   ├── [-] core.scss
 │   ├── [ ] keylines.scss
 │   ├── [ ] layouts.scss
-│   └── [ ] typography.scss
+│   └── [X] typography.scss
 ├── [ ] main.scss
 ├── mixins
 │   ├── [X] clearfix.scss
@@ -93,4 +101,26 @@ scss
     ├── [X] custom-variables.scss
     ├── [X] media-queries.scss
     └── [X] spacing.scss
+```
+
+Documentation site:
+
+```
+├── [X] color-palette.less
+├── [ ] component-info.less
+├── [ ] footer.less
+├── layout
+│   └── [ ] full-width-section.less
+├── [-] main.less
+└── pages
+    ├── [ ] components
+    │   ├── [ ] buttons.less
+    │   ├── [ ] icon.less
+    │   └── [ ] paper.less
+    ├── [ ] get-started-page.less
+    ├── [ ] home-contribute.less
+    ├── [ ] home-features.less
+    ├── [ ] home-page-hero.less
+    ├── [ ] home-purpose.less
+    └── [ ] page-with-nav.less
 ```
