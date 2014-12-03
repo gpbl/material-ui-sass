@@ -1,9 +1,9 @@
 material-ui-sass
 ================
 
-This project aims to create the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) CSS framework, which is written using [Less](https://github.com/callemall/material-ui).
+This project aims to create the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) CSS framework, which is written using [Less](https://github.com/callemall/material-ui). (see [this issue] (https://github.com/callemall/material-ui/issues/44))
 
-The project is at an early stage: see [status](#status) below. [Pull requests welcome](http://www.urbandictionary.com/define.php?term=patches%20are%20welcome&defid=7833039) :-)
+The project is at an early stage: check the [status](#status) below. [Pull requests welcome](http://www.urbandictionary.com/define.php?term=patches%20are%20welcome&defid=7833039) :-)
 
 ## Development
 
