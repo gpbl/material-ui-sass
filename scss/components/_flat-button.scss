@@ -7,10 +7,10 @@
 
 //   position: relative;
 //   overflow: hidden;
-//   background-color: @flat-button-color;
-//   color: @flat-button-text-color;
-//   line-height: @button-height;
-//   min-width: @button-min-width;
+//   background-color: $flat-button-color;
+//   color: $flat-button-text-color;
+//   line-height: $button-height;
+//   min-width: $button-min-width;
 //   padding: 0 $desktop-gutter-less;
 //   margin: 0;
 
@@ -18,7 +18,7 @@
 //     &.mui-is-visible {
 //       .ripple-click-alt(
 //         @animation-name: 'flat-button-ripple-click';
-//         @color: @flat-button-ripple-color;
+//         @color: $flat-button-ripple-color;
 //       )
 //     }
 //   }
@@ -29,18 +29,18 @@
 
 //   &.mui-is-keyboard-focused {
 //     .mui-flat-button-focus-ripple {
-//       background-color: @flat-button-focus-ripple-color;
+//       background-color: $flat-button-focus-ripple-color;
 //       .ripple-button-focus();
 //     }
 //   }
 
 //   &:hover,
 //   &.mui-is-keyboard-focused {
-//     background-color: @flat-button-hover-color;
+//     background-color: $flat-button-hover-color;
 //   }
 
 //   &.mui-is-disabled {
-//     color: @flat-button-disabled-text-color;
+//     color: $flat-button-disabled-text-color;
 
 //     &:hover {
 //       background-color: inherit;
@@ -48,25 +48,25 @@
 //   }
 
 //   &.mui-is-primary {
-//     color: @flat-button-primary-text-color;
+//     color: $flat-button-primary-text-color;
 
 //     &:hover,
 //     &.mui-is-keyboard-focused {
-//       background-color: @flat-button-primary-hover-color;
+//       background-color: $flat-button-primary-hover-color;
 //     }
 
 //     .mui-flat-button-ripple {
 //       &.mui-is-visible {
 //         .ripple-click-alt(
 //           @animation-name: 'flat-primary-button-ripple-click';
-//           @color: @flat-button-primary-ripple-color;
+//           @color: $flat-button-primary-ripple-color;
 //         )
 //       }
 //     }
 
 //     &.mui-is-keyboard-focused {
 //     .mui-flat-button-focus-ripple {
-//       background-color: @flat-button-primary-focus-ripple-color;
+//       background-color: $flat-button-primary-focus-ripple-color;
 //     }
 //   }
 //   }

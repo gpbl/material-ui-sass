@@ -5,14 +5,14 @@
 
 //   textarea {
 //     background-color: transparent;
-//     font-size: @input-font-size;
+//     font-size: $input-font-size;
 //     border: 0;
 //     outline: none;
 //     border-bottom: 1px solid lightgray;
 //     padding: 0;
 //     box-sizing: border-box;
 //     padding-bottom: 14px;
-//     width: @input-width;
+//     width: $input-width;
 
 //     &:focus, &:valid {
 //       outline: none;
@@ -90,7 +90,7 @@
 
 //   input {
 //     background-color: transparent;
-//     font-size: @input-font-size;
+//     font-size: $input-font-size;
 //     border: 0;
 //     outline: none;
 //     border-bottom: 1px solid lightgray;
@@ -100,7 +100,7 @@
 
 //     &[type='text'], &[type='password'] {
 //       display: block;
-//       width: @input-width;
+//       width: $input-width;
 //     }
 
 //     &:focus, &:valid {
@@ -108,7 +108,7 @@
 //       box-shadow: none;
 //       &+.mui-input-placeholder {
 //         color: blue;
-//         font-size: @input-placeholder-size !important;
+//         font-size: $input-placeholder-size !important;
 //         font-weight: 300;
 //         top: -32px;
 //         .ease-out;
@@ -152,7 +152,7 @@
 //     }
 
 //     &+.mui-input-placeholder {
-//       font-size: @input-font-size;
+//       font-size: $input-font-size;
 //       color: gray;
 //       position: absolute;
 //       top: -4px;
@@ -168,19 +168,19 @@
 //     .lh-opacity(0.25);
 //     height: 19px;
 //     top: -3px;
-//     width: (@input-width/2);
+//     width: ($input-width/2);
 //     z-index: -1;
 //   }
 
 //   .mui-input-bar {
 //     position: relative;
 //     display: block;
-//     width: @input-width;
+//     width: $input-width;
 
 //     &::before, &::after {
 //       content: '';
-//       height: @input-bar-height;
-//       top: (-1 * @input-bar-height);
+//       height: $input-bar-height;
+//       top: (-1 * $input-bar-height);
 //       width: 0;
 //       position: absolute;
 //       .ease-out;
@@ -204,7 +204,7 @@
 
 //   .mui-input-error {
 //     display: none;
-//     color: @input-error-color;
+//     color: $input-error-color;
 //     position: absolute;
 //     top: 36px;
 //   }
@@ -213,7 +213,7 @@
 //     textarea {
 //       &:focus, &:valid {
 //         &+.mui-input-placeholder {
-//           color: @input-error-color;
+//           color: $input-error-color;
 
 //           &+.mui-input-highlight {
 //             width: 0;
@@ -222,7 +222,7 @@
 //             &+.mui-input-bar {
 
 //               &::before, &::after {
-//                 background-color: @input-error-color;
+//                 background-color: $input-error-color;
 //               }
 
 //               &+.mui-input-description {
@@ -250,7 +250,7 @@
 //     input {
 //       &:focus, &:valid {
 //         &+.mui-input-placeholder {
-//           color: @input-error-color;
+//           color: $input-error-color;
 
 //           &+.mui-input-highlight {
 //             width: 0;
@@ -259,7 +259,7 @@
 //             &+.mui-input-bar {
 
 //               &::before, &::after {
-//                 background-color: @input-error-color;
+//                 background-color: $input-error-color;
 //               }
 
 //               &+.mui-input-description {

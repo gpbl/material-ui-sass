@@ -30,7 +30,7 @@
 //     height: 100%;
 
 //     .mui-menu-control-bg {
-//       background-color: @menu-background-color;
+//       background-color: $menu-background-color;
 //       height: 100%;
 //       width: 100%;
 //       .lh-opacity(0);
@@ -55,11 +55,11 @@
 //       position: absolute;
 //       top: 0;
 //       right: $desktop-gutter-less;
-//       color: @drop-down-menu-icon-color;
+//       color: $drop-down-menu-icon-color;
 //     }
 
 //     .mui-menu-control-underline {
-//       border-top: solid 1px @border-color;
+//       border-top: solid 1px $border-color;
 //       margin: 0 $desktop-gutter;
 //     }
 //   }

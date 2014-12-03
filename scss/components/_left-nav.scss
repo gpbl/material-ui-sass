@@ -15,8 +15,8 @@
 //   .mui-left-nav-menu {
 //     height: 100%;
 //     position: fixed;
-//     width: @left-nav-width;
-//     background-color: @left-nav-color;
+//     width: $left-nav-width;
+//     background-color: $left-nav-color;
 //     z-index: 10;
 //     left: 0px;
 //     top: 0px;
@@ -30,7 +30,7 @@
 //       a.mui-menu-item {
 //         display: block;
 //         text-decoration: none;
-//         color: @body-text-color;
+//         color: $body-text-color;
 //       }
 //     }
 //   }
@@ -45,7 +45,7 @@
 //     }
 
 //     .mui-left-nav-menu {
-//       .lh-translate3d((-1 * @left-nav-width) - 10px, 0, 0);
+//       .lh-translate3d((-1 * $left-nav-width) - 10px, 0, 0);
 //     }
 
 //   }

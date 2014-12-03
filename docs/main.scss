@@ -23,7 +23,7 @@
 @import "pages/components/paper";
 
 // a {
-//   color: @accent-1-color;
+//   color: $accent-1-color;
 //   text-decoration: none;
 
 //   &:hover {
@@ -48,9 +48,9 @@
 //   cursor: pointer;
 //   .mui-font-style-headline;
 //   .mui-text-full-white;
-//   line-height: @app-bar-height;
+//   line-height: $app-bar-height;
 //   .mui-font-weight-light;
-//   background-color: @primary-1-color;
+//   background-color: $primary-1-color;
 //   padding-left: $desktop-gutter;
 //   padding-top: 0;
 //   margin-bottom: $desktop-gutter-mini;
@@ -70,8 +70,8 @@
 //     text-transform: uppercase;
 //     color: $min-black;
 //     padding: $desktop-gutter-mini;
-//     border-right: solid 1px @border-color;
-//     border-bottom: solid 1px @border-color;
+//     border-right: solid 1px $border-color;
+//     border-bottom: solid 1px $border-color;
 //     margin-bottom: 0;
 //     .lh-border-radius(0 0 2px 0);
 //   }
@@ -82,7 +82,7 @@
 //   }
 
 //   .code-block {
-//     border-top: solid 1px @border-color;
+//     border-top: solid 1px $border-color;
 //     .lh-border-radius(0 0 2px 2px);
 //   }
 // }
