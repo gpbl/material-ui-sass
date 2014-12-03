@@ -111,16 +111,16 @@ Documentation site:
 ├── [X] footer.less
 ├── layout
 │   └── [X] full-width-section.less
-├── [-] main.less
+├── [X] main.less
 └── pages
     ├── components
     │   ├── [X] buttons.less
     │   ├── [X] icon.less
     │   └── [X] paper.less
     ├── [X] get-started-page.less
-    ├── [ ] home-contribute.less
-    ├── [ ] home-features.less
-    ├── [ ] home-page-hero.less
-    ├── [ ] home-purpose.less
-    └── [ ] page-with-nav.less
+    ├── [X] home-contribute.less
+    ├── [-] home-features.less
+    ├── [-] home-page-hero.less
+    ├── [X] home-purpose.less
+    └── [X] page-with-nav.less
 ```
