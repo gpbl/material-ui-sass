@@ -89,8 +89,8 @@ scss
 │   └── [X] typography-resets.scss
 ├── [ ] scaffolding.scss
 └── variables
-    ├── [ ] colors.scss
-    ├── [ ] custom-variables.scss
-    ├── [ ] media-queries.scss
-    └── [ ] spacing.scss
+    ├── [X] colors.scss
+    ├── [X] custom-variables.scss
+    ├── [X] media-queries.scss
+    └── [X] spacing.scss
 ```
