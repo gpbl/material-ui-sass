@@ -26,7 +26,7 @@
 //     margin-bottom: -6px;
 //   }
 
-//   @media @device-medium {
+//   @media #{$device-medium} {
 
 //     .feature-container {
 //       @include clearfix();

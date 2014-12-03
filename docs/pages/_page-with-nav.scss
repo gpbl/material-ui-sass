@@ -10,7 +10,7 @@
 //     max-width: ($desktop-keyline-increment * 14);
 //   }
 
-//   @media @device-medium {
+//   @media #{$device-medium} {
 //     @subNavWidth: ($desktop-keyline-increment * 3);
 
 //     position: relative;

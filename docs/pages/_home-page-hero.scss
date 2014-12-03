@@ -34,7 +34,7 @@
 //       margin-right: 0;
 //     }
 
-//     @media @device-large {
+//     @media #{$device-large} {
 //       margin-top: 32px;
 
 //       h1 {
