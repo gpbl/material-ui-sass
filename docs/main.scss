@@ -1,14 +1,13 @@
 /* material-ui */
 
 @import "../scss/scaffolding";
+@import "../scss/components";
 
-// @import "../../../src/less/components.less";
+/* hightlight.js for syntax highlighting */
+//@import (less) "monokai_sublime.css";
+@import "github.css";
 
-// /* hightlight.js for syntax highlighting */
-// //@import (less) "monokai_sublime.css";
-// @import (less) "github.css";
-
-// @import "color-palette.less";
+@import "color-palette";
 // @import "component-info.less";
 // @import "footer.less";
 // @import "layout/full-width-section.less";
