@@ -1,20 +1,20 @@
-// .footer {
+.footer {
 
-//   background-color: @grey-900;
-//   text-align: center;
+  background-color: $grey-900;
+  text-align: center;
 
-//   a {
-//     .mui-text-dark-white;
-//   }
+  a {
+    @extend .mui-text-dark-white;
+  }
 
-//   p {
-//     margin: 0 auto;
-//     padding: 0;
-//     .mui-text-light-white;
-//     max-width: 335px;
-//   }
+  p {
+    margin: 0 auto;
+    padding: 0;
+    @extend .mui-text-light-white;
+    max-width: 335px;
+  }
 
-//   .mui-icon-button {
-//     color: @dark-white;
-//   }
-// }
+  .mui-icon-button {
+    color: $dark-white;
+  }
+}

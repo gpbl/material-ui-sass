@@ -107,8 +107,8 @@ Documentation site:
 
 ```
 ├── [X] color-palette.less
-├── [ ] component-info.less
-├── [ ] footer.less
+├── [X] component-info.less
+├── [X] footer.less
 ├── layout
 │   └── [ ] full-width-section.less
 ├── [-] main.less
