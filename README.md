@@ -36,18 +36,20 @@ h1 {
 
 ```
 
+### Use with autoprefixer
 
+I strongly suggest to use [autoprefixer](https://github.com/postcss/autoprefixer) when rendering the final CSS.
 
 ## Contribute
 
 I will try to keep the two framworks in sync, but you can also help :-)
 If you find bugs or idea for improvements, feel free to [add a new issue](https://github.com/gpbl/material-ui-sass/issues/new).
 
-If you'd like to send pull requests, please try to adopt to the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less). 
+If you'd like to send pull requests, please try to adopt the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less). 
 
 ### Development environment 
 
-When converting to Sass, I've found the material-ui [docs site](https://github.com/callemall/material-ui/tree/master/docs) useful to preview my changes. After starting the doc site server, a watching gulp task overwrites the site's `main.css` with the Sass-compiled version. (This means we need to sassify also the documentation site, but that's not the hard part :)
+When converting to Sass, I've found the material-ui [docs site](https://github.com/callemall/material-ui/tree/master/docs) useful to preview my changes. After starting the doc site server, a watching gulp task overwrites the site's `main.css` with the Sass-compiled version. (This means you may need to sassify also the documentation site)
 
 #### Start the documentation site
 
