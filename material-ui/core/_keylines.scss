@@ -1,29 +1,17 @@
-@mixin mui-keywidth($width) {
-  width: ($width * $desktop-keyline-increment);
+// generates:
+// .mui-key-width-1  { @include mui-keywidth(1); }
+// .mui-key-height-1  { @include mui-keyheight(1); }
+// for 10 classes
+@mixin mui-generate($num) {
+  @for $i from 1 to $num {
+    .mui-key-height-#{$i} {
+      height: ($i * $desktop-keyline-increment);
+    }
+
+    .mui-key-width-#{$i} {
+      width: ($i * $desktop-keyline-increment);
+    }
+  }
 }
 
-@mixin mui-keyheight($height) {
-  height: ($height * $desktop-keyline-increment);
-}
-
-.mui-key-width-1  { @include mui-keywidth(1); }
-.mui-key-width-2  { @include mui-keywidth(2); }
-.mui-key-width-3  { @include mui-keywidth(3); }
-.mui-key-width-4  { @include mui-keywidth(4); }
-.mui-key-width-5  { @include mui-keywidth(5); }
-.mui-key-width-6  { @include mui-keywidth(6); }
-.mui-key-width-7  { @include mui-keywidth(7); }
-.mui-key-width-8  { @include mui-keywidth(8); }
-.mui-key-width-9  { @include mui-keywidth(9); }
-.mui-key-width-10 { @include mui-keywidth(10); }
-
-.mui-key-height-1  { @include mui-keyheight(1); }
-.mui-key-height-2  { @include mui-keyheight(2); }
-.mui-key-height-3  { @include mui-keyheight(3); }
-.mui-key-height-4  { @include mui-keyheight(4); }
-.mui-key-height-5  { @include mui-keyheight(5); }
-.mui-key-height-6  { @include mui-keyheight(6); }
-.mui-key-height-7  { @include mui-keyheight(7); }
-.mui-key-height-8  { @include mui-keyheight(8); }
-.mui-key-height-9  { @include mui-keyheight(9); }
-.mui-key-height-10 { @include mui-keyheight(10); }
+@include mui-generate(10);
