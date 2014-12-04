@@ -5,7 +5,7 @@
   padding: $card-padding;
 
   .mui-card-toolbar {
-    margin-top: ($card-padding * -1) ($card-padding * -1) ($card-padding * -1) $card-padding;
+    margin: ($card-padding * -1) ($card-padding * -1) ($card-padding * -1) $card-padding;
     line-height: 56px;
     height: 56px;
     padding-left: 0 $card-padding;
