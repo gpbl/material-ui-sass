@@ -43,7 +43,8 @@
         color: $raised-button-disabled-text-color;
       }
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: $raised-button-disabled-color;
       }
     }
@@ -59,7 +60,8 @@
     color: $raised-button-text-color;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     .mui-raised-button-container {
       background-color: $raised-button-hover-color;
     }
@@ -88,7 +90,8 @@
       }
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       .mui-raised-button-container {
         background-color: $raised-button-primary-hover-color;
       }
