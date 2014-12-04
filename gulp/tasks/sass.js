@@ -11,15 +11,9 @@ var handleErrors = require('../utils/handleErrors');
 var config = require('../config').sass;
 
 gulp.task('sass', function () {
-	var filterCSS = filter('**/*.css');
-	gutil.log(gutil.colors.grey('CSS is rendered in ' + config.dest));
-	gulp.src(config.src)
-		.pipe(sourcemaps.init())
-		.pipe(sass())
+	return sass(config.src, { sourcemap: true })
 		.on('error', handleErrors)
-		.pipe(sourcemaps.write())
-		.pipe(filterCSS)
 		.pipe(autoprefixer())
-		.pipe(filterCSS.restore())
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(config.dest));
 });
