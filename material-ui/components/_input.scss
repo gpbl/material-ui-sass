@@ -20,34 +20,31 @@
       padding: 0;
       margin: 0;
 
-      &+.mui-input-placeholder {
+      &~.mui-input-placeholder {
         font-size: 13px;
         color: blue;
         top: -27px;
+      }
+      &~.mui-input-highlight {
+        width: 0;
+        background-color: blue;
+        left: 0;
+        top: 1px;
+      }
+      &~.mui-input-bar {
 
-        &+.mui-input-highlight {
-          width: 0;
+        &::before, &::after {
           background-color: blue;
-          left: 0;
-          top: 1px;
-
-          &+.mui-input-bar {
-
-            &::before, &::after {
-              background-color: blue;
-              width: 50%;
-            }
-
-            &+.mui-input-description {
-              display: block;
-            }
-          }
+          width: 50%;
         }
+      }
+      &~.mui-input-description {
+        display: block;
       }
     }
 
     &:not(:focus) {
-      &+.mui-input-placeholder {
+      &~.mui-input-placeholder {
         font-size: 16px;
         color: gray;
       }
