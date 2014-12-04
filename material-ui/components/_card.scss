@@ -3,18 +3,12 @@
 
   background-color: $white;
   padding: $card-padding;
-  //.border-radius;
 
   .mui-card-toolbar {
-    margin-top: ($card-padding * -1);
-    margin-left: ($card-padding * -1);
-    margin-right: ($card-padding * -1);
-    margin-bottom: $card-padding;
-    //border-bottom: solid 1px $border-color;
+    margin-top: ($card-padding * -1) ($card-padding * -1) ($card-padding * -1) $card-padding;
     line-height: 56px;
     height: 56px;
-    padding-left: $card-padding;
-    padding-right: $card-padding;
+    padding-left: 0 $card-padding;
     @extend .mui-font-style-menu;
   }
 }
