@@ -1,14 +1,31 @@
-.mui-text-full-black          { color: $full-black; }
-.mui-text-dark-black          { color: $dark-black; }
-.mui-text-light-black         { color: $light-black; }
-.mui-text-min-black           { color: $min-black; }
-.mui-text-full-white          { color: $full-white; }
-.mui-text-dark-white          { color: $dark-white; }
-.mui-text-light-white         { color: $light-white; }
+$mui-text-color-vars: full-black, dark-black, light-black, min-black, full-white, dark-white, light-white;
+$mui-font-weight-vars: (
+  'light': 300,
+  'normal': 400,
+  'medium': 500
+);
 
-.mui-font-weight-light        { font-weight: 300 }
-.mui-font-weight-normal       { font-weight: 400 }
-.mui-font-weight-medium       { font-weight: 500 }
+// Font Colors
+@mixin mui-text($color-name) {
+  .mui-text-#{$color-name} {
+    color: unquote('$' + '#{$color-name}');
+  }
+}
+
+@each $color in $mui-text-color-vars {
+  @include mui-text($color);
+};
+
+// Font Weight
+@mixin mui-font-weight($weight, $val) {
+  .mui-font-weight-#{$weight} {
+    font-weight: $val;
+  }
+}
+
+@each $weight, $val in $mui-font-weight-vars {
+  @include mui-font-weight($weight, $val);
+};
 
 /* Type Styles */
 .mui-font-style-display-4 {
