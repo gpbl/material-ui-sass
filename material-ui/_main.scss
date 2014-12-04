@@ -1,11 +1,3 @@
-// Reset and dependencies
-@import "resets/normalize";
-@import "resets/typography-resets";
-
-//Icons
-@import "material-design-fonticons/mdfi";
-@import "material-ui-icons/style";
-
 // Core variables and mixins
 @import "variables/colors";
 @import "variables/media-queries";
@@ -13,6 +5,13 @@
 @import "variables/custom-variables";
 
 @import "mixins/mixins";
+
+// Reset and dependencies
+@import "resets/normalize";
+@import "resets/typography-resets";
+
+// Icons
+@import "icons";
 
 // Core CSS
 @import "core/core";
