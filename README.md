@@ -9,7 +9,7 @@ Download this repo and copy the [material-ui](material-ui) directory into your p
 
 ## Usage
 
-Import `material-ui/main` into your main `.scss` file, then render Sass as always. For example:
+Import `material-ui/main` into your main `.scss` file:
 
 ```scss
 
@@ -30,15 +30,11 @@ You can customize the default values overriding those in [_custom-variables.scss
 @import "material-ui/main";
 
 /* Your style here */
-h1 {
-    text-decoration: blink;
-}
-
 ```
 
-### Use with autoprefixer
+### Compiling
 
-I strongly suggest to use [autoprefixer](https://github.com/postcss/autoprefixer) when rendering the final CSS.
+To preserve my own sanity I stripped out the mixins used to add browser prefixes. This means that you **must** use [autoprefixer](https://github.com/postcss/autoprefixer) when compiling your own CSS. The [gulp sass task](gulp/tasks/sass.js) is an example on how to do it.
 
 ## Contribute
 
