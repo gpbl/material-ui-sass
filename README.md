@@ -35,10 +35,19 @@ To preserve my own sanity I stripped out the mixins used to add browser prefixes
 
 ## Differences from the original version
 
-**The framework will not change the behaviour of your HTML tags**
+### The framework will not change the behaviour of your some HTML tags
 
 The original version included a set of HTML tags: `h1`, `h2`... `h6`, `p` and `hr`. These definitions are moved in [_html.scss](material-ui/_html.scss), which is not not imported by default. You need to import that file manually if you still need them.
 
+### Roboto font is not imported
+
+You need to import it by yourself using adding this line to your .scss:
+
+```scss
+@import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
+```
+
+or, even better, add the relative JavaScript to load it, as described in the [Roboto Font page](http://www.google.com/fonts#UsePlace:use/Collection:Roboto).
 
 ## Contribute
 
