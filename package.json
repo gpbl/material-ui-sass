@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "SASS version for the material-ui CSS framework",
   "main": "index.js",
+  "homepage": "https://github.com/gpbl/material-ui-sass",
   "dependencies": {
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.0.0",
@@ -11,8 +12,8 @@
     "gulp-sourcemaps": "^1.2.8",
     "gulp-util": "^3.0.1",
     "gulp-ruby-sass": "^1.0.0-alpha",
-    "material-ui": "git://github.com/callemall/material-ui.git#master",
-    "require-dir": "^0.1.0"
+    "require-dir": "^0.1.0",
+    "material-ui": "^0.3.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,6 +31,5 @@
   "author": "Giampaolo Bellavite",
   "bugs": {
     "url": "https://github.com/gpbl/material-ui-sass/issues"
-  },
-  "homepage": "https://github.com/gpbl/material-ui-sass"
+  }
 }
