@@ -14,9 +14,9 @@ var config       = require('../config').sass;
 // npm install --save-dev gulp-ruby-sass@1.0.0-alpha
 
 gulp.task('sass', function () {
-	return sass(config.src, { sourcemap: true })
-		.on('error', handleErrors)
-		.pipe(autoprefixer())
-		.pipe(sourcemaps.write())
-		.pipe(gulp.dest(config.dest));
+  return sass(config.src, { sourcemap: true })
+    .on('error', handleErrors)
+    .pipe(autoprefixer())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(config.dest));
 });
