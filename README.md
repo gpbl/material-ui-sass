@@ -1,13 +1,18 @@
 material-ui-sass
 ================
 
-This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) CSS framework, which is originally written with [Less](https://github.com/callemall/material-ui).
+This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) React/CSS framework, which originally uses  [Less](https://github.com/callemall/material-ui) for the styles.
 
 ## Installation
 
-Download this repo and copy the [material-ui](material-ui) directory into your project, usually where you put your styles.
+* [Download last version](https://github.com/gpbl/material-ui-sass/archive/v0.3.3.zip) - v0.3.3, working with material-ui from npm
+* Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
+
+> Versions tagged in this repo follow the same published on [material-ui](https://github.com/callemall/material-ui).
 
 ## Usage
+
+The Sass files work with the original [material-ui](https://github.com/callemall/material-ui) React components.
 
 Import `material-ui/main` into your main `.scss` file:
 
