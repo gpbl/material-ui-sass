@@ -61,28 +61,18 @@ If you find bugs or idea for improvements, feel free to [add a new issue](https:
 
 If you'd like to send pull requests, please try to adopt the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less). 
 
-### Development environment 
+### Development 
 
 When converting to Sass, I've found the material-ui [docs site](https://github.com/callemall/material-ui/tree/master/docs) useful to preview my changes. After starting the doc site server, a watching gulp task overwrites the site's `main.css` with the Sass-compiled version. (This means you may need to sassify also the documentation site)
 
-#### Start the documentation site
+#### Start the dev environment
 
-After running `npm install`, start the documentation site from the `node_modules` directory:
+After running `npm install`, start the gulp task:
 
 ```bash
-cd node_modules/material-ui/docs
-npm install
 gulp
 ```
+
+This should open automatically the documentation site at [http://localhost:3001](http://localhost:3001). While editing the `.sass` files, you will see a live preview of the changes.
 
 PS. Make sure you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Sass](http://sass-lang.com/install) installed.
-
-#### Start the watch task
-
-Open another tab/windows of the terminal, and run
-
-```
-gulp
-```
-
-This will watch `./docs/main.scss` file to overwrite the CSS used by the documentation site. While editing our Sass files, you will see a live preview of our changes.

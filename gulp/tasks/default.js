@@ -1,2 +1,2 @@
-var gulp         = require('gulp');
-gulp.task('default', ['watch']);
+var gulp = require('gulp');
+gulp.task('default', ['sass', 'watch', 'gulp-docs']);
