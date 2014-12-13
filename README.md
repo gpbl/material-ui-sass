@@ -73,6 +73,6 @@ After running `npm install`, start the gulp task:
 gulp
 ```
 
-This should open automatically the documentation site at [http://localhost:3001](http://localhost:3001). While editing the `.sass` files, you will see a live preview of the changes.
+This should open automatically the documentation site. While editing the `.sass` files, you will see a live preview of the changes.
 
 PS. Make sure you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Sass](http://sass-lang.com/install) installed.
