@@ -86,7 +86,7 @@
 
       &:not(.mui-slider-zero) {
         .mui-slider-handle:not(:active) {
-          border: $slider-handle-size solid lighten($slider-selection-color, 20%);
+          border: $slider-handle-size solid rgba($slider-selection-color, 0.2);
           @include handle-size($slider-handle-size-active + $slider-handle-size);
         }
       }
