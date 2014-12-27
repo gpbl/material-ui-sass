@@ -17,7 +17,7 @@
     "require-dir": "^0.1.0"
   },
   "scripts": {
-    "postinstall": "cd node_modules/material-ui/docs && npm install"
+    "postinstall": "cd node_modules/material-ui && npm install && cd docs && npm install"
   },
   "repository": {
     "type": "git",
