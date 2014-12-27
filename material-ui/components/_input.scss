@@ -14,7 +14,7 @@
     padding-bottom: 14px;
     width: $input-width;
 
-    &:focus, &:valid {
+    &:focus, &.mui-is-not-empty, &:disabled[value]:not([value=""]) {
       outline: none;
       box-shadow: none;
       padding: 0;
@@ -50,7 +50,7 @@
       }
     }
 
-    &:not(:focus):valid {
+    &:not(:focus).mui-is-not-empty, &:disabled[value]:not([value=""]) {
       &~.mui-input-placeholder {
         font-size: 13px;
         color: gray;
@@ -86,12 +86,12 @@
     box-sizing: border-box;
     padding-bottom: 14px;
 
-    &[type='text'], &[type='password'] {
+    &[type='text'], &[type='password'], &[type='email'] {
       display: block;
       width: $input-width;
     }
 
-    &:focus, &:valid {
+    &:focus, &.mui-is-not-empty, &:disabled[value]:not([value=""]) {
       outline: none;
       box-shadow: none;
       &~.mui-input-placeholder {
@@ -117,7 +117,7 @@
       }
     }
 
-    &:not(:focus):valid {
+    &:not(:focus).mui-is-not-empty, &:disabled[value]:not([value=""]) {
       &~.mui-input-placeholder {
         color: gray;
       }
@@ -197,7 +197,7 @@
     }
 
     textarea:focus,
-    textarea:valid {
+    textarea.mui-is-not-empty {
       &~.mui-input-placeholder {
         color: $input-error-color;
       }
@@ -216,7 +216,7 @@
     }
 
     input:focus,
-    input:valid {
+    input.mui-is-not-empty {
       &~.mui-input-placeholder {
         color: $input-error-color;
       }
@@ -251,23 +251,26 @@
           top: -4px;
         }
 
-        &:valid {
+        &.mui-is-not-empty {
           &~.mui-input-placeholder {
             display: none;
           }
         }
       }
 
-      &:valid {
+      &.mui-is-not-empty {
         &~.mui-input-placeholder {
           display: none;
         }
       }
     }
   }
+
+  &.mui-disabled { opacity: 0.4 }
+
 }
 
 ::-webkit-input-placeholder {
-   position: absolute !important;
-   top: -20px !important;
+  position: absolute !important;
+  top: -20px !important;
 }
