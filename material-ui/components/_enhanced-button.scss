@@ -6,5 +6,19 @@
   &:focus {
     outline: none;
   }
+  
+  &.mui-is-link-button {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.mui-is-disabled {
+      cursor: default;
+    }
+  }
 
 }
