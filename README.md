@@ -36,7 +36,7 @@ You can customize the default values overriding those in [_custom-variables.scss
 
 ### Compiling
 
-To preserve my own sanity I stripped out the mixins used to add browser prefixes. This means that you **must** use [autoprefixer](https://github.com/postcss/autoprefixer) when compiling your own CSS. The [gulp sass task](gulp/tasks/sass.js) is an example on how to do it.
+You **must** use [autoprefixer](https://github.com/postcss/autoprefixer) when compiling your own CSS. The [gulp sass task](gulp/tasks/sass.js) is an example on how to do it.
 
 ## Differences from the original version
 
