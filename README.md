@@ -5,7 +5,7 @@ This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](ht
 
 ## Installation
 
-* [Download last version](https://github.com/gpbl/material-ui-sass/archive/v0.3.3.zip) - v0.3.3, working with material-ui from npm
+* [Download last version](https://github.com/gpbl/material-ui-sass/archive/v0.4.1.zip) - v0.4.1, working with material-ui from npm
 * Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
 
 > Versions tagged in this repo follow the same published on [material-ui](https://github.com/callemall/material-ui).
