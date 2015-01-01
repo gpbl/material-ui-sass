@@ -1,4 +1,11 @@
-@import "../../../node_modules/react-draggable2/lib/styles.css";
+
+.react-draggable, .react-draggable-dragging {
+  user-select: none;
+}
+
+.react-draggable {
+  position: relative;
+}
 
 @mixin handle-size($size) {
   width: $size;
@@ -12,7 +19,6 @@
   cursor: default;
   height: $slider-handle-size-active;
   position: relative;
-
 
   .mui-slider-track {
     position: absolute;
@@ -59,6 +65,7 @@
     z-index: 1;
     margin: ($slider-track-size / 2) 0 0 0;
     border-radius: 50%;
+    background-clip: padding-box;
     transform: translate(-50%, -50%);
     transition: border 450ms $ease-out-function, width 450ms $ease-out-function, height 450ms $ease-out-function;
     @include handle-size($slider-handle-size);
