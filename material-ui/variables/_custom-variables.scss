@@ -147,6 +147,11 @@ $slider-handle-size-disabled: 8px;
 $slider-handle-color-zero: $grey-400;
 $slider-selection-color: $primary-3-color;
 
+// snackbar
+$mui-snackbar-text-color: white;
+$mui-snackbar-background-color: #323232;
+$mui-snackbar-action-color: $accent-1-color;
+
 // layout
 $app-bar-height: $desktop-keyline-increment;
 $left-nav-width: ($desktop-keyline-increment * 4);
