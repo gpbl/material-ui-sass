@@ -2,7 +2,7 @@
   "name": "material-ui-sass",
   "version": "0.5.0",
   "description": "SASS version for the material-ui CSS framework",
-  "main": "index.js",
+  "main": "material-ui.scss",
   "homepage": "https://github.com/gpbl/material-ui-sass",
   "devDependencies": {
     "gulp": "^3.8.10",
