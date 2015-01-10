@@ -16,9 +16,6 @@
     "material-ui": "^0.5.0",
     "require-dir": "^0.1.0"
   },
-  "scripts": {
-    "postinstall": "cd node_modules/material-ui && npm install && cd docs && npm install"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gpbl/material-ui-sass.git"
