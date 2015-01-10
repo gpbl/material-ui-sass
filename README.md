@@ -38,6 +38,16 @@ You can customize the default values overriding those in [_custom-variables.scss
 
 You **must** use [autoprefixer](https://github.com/postcss/autoprefixer) when compiling your own CSS. The [gulp sass task](gulp/tasks/sass.js) is an example on how to do it.
 
+### Extending typography classes
+
+Material-ui includes [a set of typography classes](material-ui/core/_typography.scss) that you can use with SASS `@extend` in your own CSS:
+
+```sass
+.my-custom-headline {
+  @extend %mui-font-style-headline;
+}
+```
+
 ## Differences from the original version
 
 ### The framework does not change HTML tags
