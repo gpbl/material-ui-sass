@@ -4,13 +4,13 @@
   text-align: center;
 
   a {
-    @extend .mui-text-dark-white;
+    @extend %mui-text-dark-white;
   }
 
   p {
     margin: 0 auto;
     padding: 0;
-    @extend .mui-text-light-white;
+    @extend %mui-text-light-white;
     max-width: 335px;
   }
 

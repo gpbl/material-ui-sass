@@ -50,10 +50,10 @@ a {
 
 .logo {
   cursor: pointer;
-  @extend .mui-font-style-headline;
-  @extend .mui-text-full-white;
+  @extend %mui-font-style-headline;
+  @extend %mui-text-full-white;
   line-height: $app-bar-height;
-  @extend .mui-font-weight-light;
+  @extend %mui-font-weight-light;
   background-color: $primary-1-color;
   padding-left: $desktop-gutter;
   padding-top: 0;
@@ -69,7 +69,7 @@ a {
   margin-bottom: 32px;
 
   .example-label {
-    @extend .mui-font-style-menu;
+    @extend %mui-font-style-menu;
     display: inline-block;
     text-transform: uppercase;
     color: $min-black;

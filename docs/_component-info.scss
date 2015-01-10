@@ -1,6 +1,6 @@
 .component-info {
 
-  @extend .mui-font-style-subhead-1;
+  @extend %mui-font-style-subhead-1;
   width: 100%;
 
   td {
@@ -11,16 +11,16 @@
   .component-info-name {
     position: absolute;
 
-    @extend .mui-font-weight-medium;
+    @extend %mui-font-weight-medium;
   }
 
   .component-info-type {
-    @extend .mui-text-light-black;
+    @extend %mui-text-light-black;
     padding-right: $desktop-gutter;
   }
 
   .component-info-header {
-    @extend .mui-font-style-subhead-1;
+    @extend %mui-font-style-subhead-1;
     padding-top: 0;
   }
 

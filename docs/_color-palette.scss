@@ -349,7 +349,7 @@
   .deep-orange-500, .deep-orange-600, .deep-orange-700, .deep-orange-800, .deep-orange-900, .deep-orange-A400, .deep-orange-A700,
   .brown-300, .brown-400,
   .blue-grey-400, .blue-grey-500 {
-    @extend .mui-text-full-white;
+    @extend %mui-text-full-white;
   }
 
   .red-800, .red-900,
@@ -365,10 +365,10 @@
   .brown-500, .brown-600, .brown-700, .brown-800, .brown-900,
   .blue-grey-600, .blue-grey-700, .blue-grey-800, .blue-grey-900,
   .grey-600, .grey-700, .grey-800, .grey-900 {
-    @extend .mui-text-dark-white;
+    @extend %mui-text-dark-white;
   }
 
   .orange-A700 {
-    @extend .mui-text-full-black;
+    @extend %mui-text-full-black;
   }
 }

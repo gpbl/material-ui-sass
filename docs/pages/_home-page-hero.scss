@@ -13,12 +13,12 @@
     max-width: 575px;
 
     h2 {
-      @extend .mui-font-style-title;
+      @extend %mui-font-style-title;
     }
 
     h1, h2 {
       color: $dark-white;
-      @extend .mui-font-weight-light;
+      @extend %mui-font-weight-light;
     }
 
     .demo-button, .github-button {
@@ -43,9 +43,9 @@
 
       h2 {
         // FIXME: see http://thesassway.com/intermediate/understanding-placeholder-selectors
-        // @extend .mui-font-style-headline;
+        // @extend %mui-font-style-headline;
         color: $dark-white;
-        // @extend .mui-font-weight-light;
+        // @extend %mui-font-weight-light;
       }
     }
 

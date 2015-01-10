@@ -6,7 +6,7 @@
   h3 {
     margin: 0;
     padding: 0;
-    @extend .mui-font-weight-light;
+    @extend %mui-font-weight-light;
   }
 
   .mui-raised-button {
