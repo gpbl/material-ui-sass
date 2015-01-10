@@ -54,16 +54,6 @@ Material-ui includes [a set of typography classes](material-ui/core/_typography.
 
 The original version included a set of HTML tags: `h1`, `h2`... `h6`, `p` and `hr`. Those definitions are moved in [_html.scss](material-ui/_html.scss), which is not imported by default. You need to import that file manually if you still need them.
 
-### Roboto font is not imported
-
-You need to import it by yourself using adding this line to your .scss:
-
-```scss
-@import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
-```
-
-or, even better, add the relative JavaScript to load it, as described in the [Roboto Font page](http://www.google.com/fonts#UsePlace:use/Collection:Roboto).
-
 ## Contribute
 
 I will try to keep the two frameworks in sync, but you can also help :-)
