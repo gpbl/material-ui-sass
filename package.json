@@ -1,6 +1,6 @@
 {
   "name": "material-ui-sass",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "SASS version for the material-ui CSS framework",
   "main": "material-ui.scss",
   "homepage": "https://github.com/gpbl/material-ui-sass",
