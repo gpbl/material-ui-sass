@@ -87,10 +87,11 @@ When converting to Sass, I've found the material-ui [docs site](https://github.c
 
 #### Start the dev environment
 
-After running `npm install`, start the gulp task:
+After running `npm install`,  install the material-ui modules and docs, and start the gulp project:
 
 ```bash
-gulp
+cd node_modules/material-ui && npm install && cd docs && npm install
+../../gulp
 ```
 
 This should open automatically the documentation site. While editing the `.sass` files, you will see a live preview of the changes.
