@@ -1,12 +1,4 @@
 
-.react-draggable, .react-draggable-dragging {
-  user-select: none;
-}
-
-.react-draggable {
-  position: relative;
-}
-
 @mixin handle-size($size) {
   width: $size;
   height: $size;
