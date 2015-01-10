@@ -4,37 +4,23 @@
   min-width: $button-min-width;
   height: $button-height;
 
-  * { @include ease-out(); }
+  &, * { @include ease-out(); }
 
   .mui-raised-button-container {
-    border-radius: 2px;
-    background-color: $raised-button-color;
-    padding: 0;
-    overflow: hidden;
     position: relative;
     width: 100%;
-
-    .mui-raised-button-focus-ripple {
-      background-color: $transparent;
-    }
+    padding: 0;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: $raised-button-color;
+    
+    //This is need so that ripples do not bleed
+    //past border radius.
+    //See: http://stackoverflow.com/questions/17298739/css-overflow-hidden-not-working-in-chrome-when-parent-has-border-radius-and-chil
+    transform: translate3d(0, 0, 0);
 
     &.mui-is-keyboard-focused {
       background-color: $raised-button-hover-color;
-
-      .mui-raised-button-focus-ripple {
-        background-color: $raised-button-focus-ripple-color;
-        @include ripple-button-focus();
-        padding-top: 0;
-      }
-    }
-
-    .mui-raised-button-ripple {
-      &.mui-is-visible {
-        @include ripple-click-alt(
-          $animation-name: "raised-button-ripple-click",
-          $color: $raised-button-ripple-color
-        )
-      }
     }
 
     &.mui-is-disabled {
@@ -44,10 +30,21 @@
         color: $raised-button-disabled-text-color;
       }
 
-      &:hover,
-      &:focus {
+      &:hover {
         background-color: $raised-button-disabled-color;
       }
+    }
+  }
+
+  .mui-touch-ripple {
+    .mui-ripple-circle-inner {
+      background-color: $raised-button-ripple-color;
+    }
+  }
+
+  .mui-focus-ripple {
+    .mui-focus-ripple-inner {
+      background-color: $raised-button-focus-ripple-color;
     }
   }
 
@@ -61,8 +58,7 @@
     color: $raised-button-text-color;
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
     .mui-raised-button-container {
       background-color: $raised-button-hover-color;
     }
@@ -73,33 +69,31 @@
     .mui-raised-button-container {
       background-color: $raised-button-primary-color;
 
-      .mui-raised-button-ripple {
-        &.mui-is-visible {
-          @include ripple-click-alt(
-            $animation-name: "raised-button-primary-ripple-click",
-            $color: $raised-button-primary-ripple-color
-          )
-        }
-      }
-
       &.mui-is-keyboard-focused {
         background-color: $raised-button-primary-hover-color;
-
-        .mui-raised-button-focus-ripple {
-          background-color: $raised-button-primary-focus-ripple-color;
-        }
       }
     }
 
-    &:hover,
-    &:focus {
-      .mui-raised-button-container {
-        background-color: $raised-button-primary-hover-color;
+    .mui-touch-ripple {
+      .mui-ripple-circle-inner {
+        background-color: $raised-button-primary-ripple-color;
+      }
+    }
+
+    .mui-focus-ripple {
+      .mui-focus-ripple-inner {
+        background-color: $raised-button-primary-focus-ripple-color;
       }
     }
 
     .mui-raised-button-label {
       color: $raised-button-primary-text-color;
+    }
+
+    &:hover {
+      .mui-raised-button-container {
+        background-color: $raised-button-primary-hover-color;
+      }
     }
   }
 
@@ -108,22 +102,25 @@
     .mui-raised-button-container {
       background-color: $raised-button-secondary-color;
 
-      .mui-raised-button-ripple {
-        &.mui-is-visible {
-          @include ripple-click-alt(
-            $animation-name: raised-button-secondary-ripple-click,
-            $color: $raised-button-secondary-ripple-color
-          )
-        }
-      }
-
       &.mui-is-keyboard-focused {
         background-color: $raised-button-secondary-hover-color;
-
-        .mui-raised-button-focus-ripple {
-          background-color: $raised-button-secondary-focus-ripple-color;
-        }
       }
+    }
+
+    .mui-touch-ripple {
+      .mui-ripple-circle-inner {
+        background-color: $raised-button-secondary-ripple-color;
+      }
+    }
+
+    .mui-focus-ripple {
+      .mui-focus-ripple-inner {
+        background-color: $raised-button-secondary-focus-ripple-color;
+      }
+    }
+
+    .mui-raised-button-label {
+      color: $raised-button-secondary-text-color;
     }
 
     &:hover {
@@ -131,11 +128,5 @@
         background-color: $raised-button-secondary-hover-color;
       }
     }
-
-    .mui-raised-button-label {
-      color: $raised-button-secondary-text-color;
-    }
   }
-
-
 }
