@@ -3,7 +3,7 @@
 
   .mui-date-picker-calendar-week-title {
     @include clearfix();
-    @extend .mui-font-weight-medium;
+    @extend %mui-font-weight-medium;
     color: lighten($date-picker-calendar-text-color, 50%);
     
     line-height: 12px;

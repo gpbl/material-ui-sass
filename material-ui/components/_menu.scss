@@ -89,7 +89,7 @@
       vertical-align: top;
       top: -12px;
       position: relative;
-      @extend .mui-font-weight-light;
+      @extend %mui-font-weight-light;
     }
 
     .mui-icon-arrow-drop-right {

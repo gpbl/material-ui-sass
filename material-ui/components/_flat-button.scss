@@ -1,7 +1,7 @@
 .mui-flat-button {
 
   @include ease-out();
-  @extend .mui-font-style-button;
+  @extend %mui-font-style-button;
   border-radius: 2px;
   user-select: none;
 

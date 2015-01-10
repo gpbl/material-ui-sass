@@ -6,7 +6,7 @@
     line-height: 48px;
     font-size: 14px;
     text-align: center;
-    @extend .mui-font-weight-medium;
+    @extend %mui-font-weight-medium;
   }
 
   .mui-date-picker-calendar-toolbar-button-left {

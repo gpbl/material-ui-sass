@@ -50,8 +50,8 @@
   letter-spacing: -7px;
   padding-top: 17px;
   margin-bottom: 15px;
-  @extend .mui-font-weight-light;
-  @extend .mui-text-light-black;
+  @extend %mui-font-weight-light;
+  @extend %mui-text-light-black;
 }
 
 %mui-font-style-display-3,
@@ -61,8 +61,8 @@
   letter-spacing: -2px;
   padding-top: 8px;
   margin-bottom: 28px;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-light-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-light-black;
 }
 
 %mui-font-style-display-2,
@@ -71,8 +71,8 @@
   line-height: 48px;
   margin-bottom: 11px;
   letter-spacing: -1px;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-light-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-light-black;
 }
 
 %mui-font-style-display-1,
@@ -82,8 +82,8 @@
   padding-top: 8px;
   margin-bottom: 12px;
   letter-spacing: -1px;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-light-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-light-black;
 }
 
 %mui-font-style-headline,
@@ -93,8 +93,8 @@
   padding-top: 16px;
   margin-bottom: 12px;
   letter-spacing: 0;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-title,
@@ -104,8 +104,8 @@
   padding-top: 19px;
   margin-bottom: 13px;
   letter-spacing: 0;
-  @extend .mui-font-weight-medium;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-medium;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-subhead-2,
@@ -115,17 +115,17 @@
   padding-top: 2px;
   margin-bottom: 10px;
   letter-spacing: 0;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-subhead-1,
 .mui-font-style-subhead-1 {
-  @extend .mui-font-style-subhead-2;
+  @extend %mui-font-style-subhead-2;
   line-height: 24px;
   padding-top: 3px;
   margin-bottom: 13px;
-  @extend .mui-text-dark-black;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-body-2,
@@ -135,8 +135,8 @@
   padding-top: 4px;
   margin-bottom: 12px;
   letter-spacing: 0;
-  @extend .mui-font-weight-medium;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-medium;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-body-1,
@@ -146,8 +146,8 @@
   padding-top: 6px;
   margin-bottom: 14px;
   letter-spacing: 0;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-caption,
@@ -157,8 +157,8 @@
   padding-top: 6px;
   margin-bottom: 14px;
   letter-spacing: 0;
-  @extend .mui-font-weight-normal;
-  @extend .mui-text-light-black;
+  @extend %mui-font-weight-normal;
+  @extend %mui-text-light-black;
 }
 
 %mui-font-style-menu,
@@ -168,8 +168,8 @@
   padding-top: 6px;
   margin-bottom: 14px;
   letter-spacing: 0;
-  @extend .mui-font-weight-medium;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-medium;
+  @extend %mui-text-dark-black;
 }
 
 %mui-font-style-button,
@@ -180,6 +180,6 @@
   margin-bottom: 15px;
   letter-spacing: 0;
   text-transform: uppercase;
-  @extend .mui-font-weight-medium;
-  @extend .mui-text-dark-black;
+  @extend %mui-font-weight-medium;
+  @extend %mui-text-dark-black;
 }

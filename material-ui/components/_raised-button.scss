@@ -50,7 +50,7 @@
 
   .mui-raised-button-label {
     position: relative;
-    @extend .mui-font-style-button;
+    @extend %mui-font-style-button;
     margin: 0;
     padding: 0 $desktop-gutter-less;
     user-select: none;

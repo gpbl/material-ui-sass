@@ -9,6 +9,6 @@
     line-height: 56px;
     height: 56px;
     padding-left: 0 $card-padding;
-    @extend .mui-font-style-menu;
+    @extend %mui-font-style-menu;
   }
 }
