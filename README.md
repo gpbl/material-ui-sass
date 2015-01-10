@@ -3,18 +3,34 @@ material-ui-sass
 
 This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) React/CSS framework, which originally uses  [Less](https://github.com/callemall/material-ui) for the styles.
 
-## Installation
+Working with material-ui **v0.5.0**.
 
-* [Download last version](https://github.com/gpbl/material-ui-sass/archive/v0.4.1.zip) - v0.4.1, working with material-ui from npm
+## Installation and first setup
+
+### Using npm
+
+```
+npm install material-ui-sass
+```
+
+In your SCSS file you need to import directly from `node_modules`:
+
+```sass
+// when style.scss is in your project's root
+@import "./node_modules/material-ui-sass/material-ui";
+
+/* Your style here */
+h1 { text-decoration: blink; }
+
+```
+
+### Manual download
+
+If you don't want to dig into `node_modules` in your .scss files, you can download the sources:
+
+* [Download latest version](https://github.com/gpbl/material-ui-sass/archive/latest.zip) - working with material-ui v0.5.0 
 * Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
-
-> Versions tagged in this repo follow the same published on [material-ui](https://github.com/callemall/material-ui).
-
-## Usage
-
-The Sass files work with the original [material-ui](https://github.com/callemall/material-ui) React components.
-
-Import `material-ui/main` into your main `.scss` file:
+* Import `material-ui/main` into your main `.scss` file:
 
 ```scss
 @import "material-ui/main";
@@ -23,6 +39,10 @@ Import `material-ui/main` into your main `.scss` file:
 h1 { text-decoration: blink; }
 
 ```
+
+## Usage
+
+The Sass files work with the original [material-ui](https://github.com/callemall/material-ui) React components.
 
 You can customize the default values overriding those in [_custom-variables.scss](material-ui/variables/_custom-variables.scss). Include them before importing material-ui: 
 
