@@ -63,6 +63,15 @@
       }
     }
 
+    .mui-icon-button {
+      margin-top: ($toolbar-height - $icon-size * 2) / 2;
+
+      .mui-icon {
+        line-height: 1;
+        padding-left: 0;
+      }
+    }
+
     &.mui-left {
       float: left;
 
