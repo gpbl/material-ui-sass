@@ -1,5 +1,7 @@
 $icon-button-size: ($icon-size * 2);
 
+@include pulsate("icon-button-focus-ripple-pulsate");
+
 .mui-icon-button {
 
   * { @include ease-out(); }
@@ -8,11 +10,11 @@ $icon-button-size: ($icon-size * 2);
 
   .mui-focus-ripple {
     .mui-focus-ripple-inner {
+      @include pulsate-animation("icon-button-focus-ripple-pulsate");
       background-color: rgba(0,0,0,0.1);
       box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
       border: solid 6px $transparent;
       background-clip: padding-box;
-      @include pulsate("icon-button-focus-ripple-pulsate");
     }
   }
 

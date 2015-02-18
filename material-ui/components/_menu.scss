@@ -1,3 +1,5 @@
+@include ripple-click-alt("menu-item-ripple-animation", darken($white, 20%), 250px);
+
 .mui-menu {
 
   * {@include ease-out(); }
@@ -56,7 +58,7 @@
 
     .mui-ripple {
       &.mui-show {
-        @include ripple-click-alt("menu-item-ripple-animation", darken($white, 20%), 250px);
+        @include ripple-click-alt-animation("menu-item-ripple-animation");
       }
     }
 

@@ -1,3 +1,9 @@
+@include pulsate(
+  $animation-name: "focus-ripple-pulsate",
+  $start-size: 0.75,
+  $end-size: 0.85
+);
+
 .mui-focus-ripple {
   position: absolute;
   height: 100%;
@@ -10,18 +16,12 @@
   opacity: 0;
 
   .mui-focus-ripple-inner {
+    @include pulsate-animation("focus-ripple-pulsate");
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 50%;
     background-color: rgba(0,0,0,0.1);
-
-    @include pulsate(
-      $animation-name: "focus-ripple-pulsate",
-      $start-size: 0.75,
-      $end-size: 0.85
-    );
-
   }
 
   &.mui-is-shown {
