@@ -101,4 +101,4 @@ PS. You need to make a change in a `.scss` file to overwrite the original css.
 
 I start from the [github's compare view](https://github.com/callemall/material-ui/compare) showing the diff from the previous version (e.g. the v0.4.0 tag) to the current release (e.g. the v0.5.0 tag – not master!). This view shows which `.less` files have been changed.
 
-Then I keep opened 2 browser's windows: one displaying the the Sass version I'm working on (that running with `npm run dev`) and the other one showing http://www.material-ui.com, to help spotting the diffrences between the two versions.
+Then I keep opened 2 browser's windows: one displaying the the Sass version I'm working on (that running with `npm run dev`) and the other one showing http://www.material-ui.com, to help spotting the differences between the two versions.
