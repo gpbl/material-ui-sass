@@ -93,6 +93,6 @@ npm run setup  # will install material-ui docs and deps
 npm run dev    # run the dev environment
 ```
 
-`npm run dev` should open automatically the documentation site. While editing the `.scss` files, you will see a live preview of the changes.
+`npm run dev` should open automatically the documentation site. While editing the `.sass` files, you will see a live preview of the changes.
 
 PS. You need to at least make a change to overwrite the original css.
