@@ -93,6 +93,12 @@ npm run setup  # will install material-ui docs and deps
 npm run dev    # run the dev environment
 ```
 
-`npm run dev` should open automatically the documentation site. While editing the `.sass` files, you will see a live preview of the changes.
+`npm run dev` should open automatically the documentation site. While editing the `.scss` files, you will see a live preview of the changes.
 
-PS. You need to at least make a change to overwrite the original css.
+PS. You need to make a change in a `.scss` file to overwrite the original css.
+
+#### Start migrating the .less files
+
+I start from the [github's compare view](https://github.com/callemall/material-ui/compare) showing the diff from the previous version (e.g. the v0.4.0 tag) to the current release (e.g. the v0.5.0 tag – not master!). This view shows which `.less` files have been changed.
+
+Then I keep opened 2 browser's windows: one displaying the the Sass version I'm working on (that running with `npm run dev`) and the other one showing http://www.material-ui.com, to help spotting the diffrences between the two versions.
