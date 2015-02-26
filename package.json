@@ -3,6 +3,10 @@
   "version": "0.5.3",
   "description": "SASS version for the material-ui CSS framework",
   "main": "material-ui.scss",
+  "scripts": {
+    "setup": "cd node_modules/material-ui && npm install && cd docs && npm install",
+    "dev": "gulp"
+  },
   "homepage": "https://github.com/gpbl/material-ui-sass",
   "devDependencies": {
     "gulp": "^3.8.11",
