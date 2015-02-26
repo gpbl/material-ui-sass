@@ -1,22 +1,21 @@
-'use strict';
+// "use strict";
 
-var gulp         = require('gulp');
-var gutil        = require('gulp-util');
-var filter       = require('gulp-filter');
+var gulp = require('gulp');
+var gutil = require('gulp-util');
+var filter = require('gulp-filter');
 var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps   = require('gulp-sourcemaps');
-var sass         = require('gulp-ruby-sass'); 
+var sourcemaps = require('gulp-sourcemaps');
+var sass = require('gulp-sass');
 
 var handleErrors = require('../utils/handleErrors');
-var config       = require('../config').sass;
-
-// Please note that this works only with gulp-ruby-sass@1.0.0-alpha!
-// npm install --save-dev gulp-ruby-sass@1.0.0-alpha
+var config = require('../config').sass;
 
 gulp.task('sass', function () {
-  return sass(config.src, { sourcemap: true })
+  gulp.src(config.src)
+    .pipe(sourcemaps.init())
+    .pipe(sass())
     .on('error', handleErrors)
-    .pipe(autoprefixer())
+    .pipe(autoprefixer({ cascade: false, browsers: ['last 2 versions']}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(config.dest));
 });
