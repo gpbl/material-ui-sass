@@ -1,18 +1,19 @@
+.react-draggable-dragging {
+  user-select: none;
+}
 
 .mui-slider {
+  $fill-gutter: $slider-handle-size-disabled - $slider-track-size;
 
   @mixin handle-size($size) {
     width: $size;
     height: $size;
   }
 
-  $fill-gutter: $slider-handle-size-disabled - $slider-track-size;
-
   -webkit-touch-callout: none;
   cursor: default;
   height: $slider-handle-size-active;
   position: relative;
-
 
   .mui-slider-track {
     position: absolute;
@@ -52,7 +53,6 @@
   }
 
   .mui-slider-handle {
-    background-clip: padding-box;
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -60,6 +60,7 @@
     z-index: 1;
     margin: ($slider-track-size / 2) 0 0 0;
 
+    background-clip: padding-box;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     transition:

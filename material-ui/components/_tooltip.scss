@@ -1,7 +1,7 @@
 .mui-tooltip {
   position: absolute;
 
-  font-family: $contentFontFamily;  
+  font-family: $contentFontFamily;
   font-size: 10px;
   line-height: 22px;
   padding: 0 8px;
@@ -12,6 +12,7 @@
   border-radius: 2px;
   user-select: none;
   opacity: 0;
+
   transition: top 0ms $ease-out-function 450ms,
               transform 450ms $ease-out-function 0ms,
               opacity 450ms $ease-out-function 0ms;
@@ -30,7 +31,7 @@
     border-radius: 50%;
     background-color: transparent;
 
-    transition: 
+    transition:
       width 0ms $ease-out-function 450ms,
       height 0ms $ease-out-function 450ms,
       background-color 450ms $ease-out-function 0ms;
@@ -38,11 +39,11 @@
 
   &.mui-is-shown {
     top: -16px;
-
     opacity: 1;
     transform: translate3d(0, 16px, 0);
+
     transition:
-      top 0ms $ease-out-function 0ms, 
+      top 0ms $ease-out-function 0ms,
       transform 450ms $ease-out-function 0ms,
       opacity 450ms $ease-out-function 0ms;
 

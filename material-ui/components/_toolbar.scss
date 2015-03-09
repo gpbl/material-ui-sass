@@ -3,7 +3,7 @@
   height: $toolbar-height;
   width: 100%;
   padding: 0 $desktop-gutter;
-  
+
   .mui-toolbar-group {
     position: relative;
 
@@ -18,11 +18,12 @@
       height: $desktop-gutter-more;
       margin-left: $desktop-gutter;
       position: relative;
-      top: 12px;
+      top: (($toolbar-height - $desktop-gutter-more) / 2);
       width: 1px;
     }
 
-    .mui-raised-button {
+    .mui-raised-button,
+    .mui-flat-button {
       margin: 0 $desktop-gutter;
       margin-top: (($toolbar-height - $button-height) / 2);
       position: relative;
@@ -44,14 +45,14 @@
         }
       }
 
-      .mui-icon {
+      .mui-font-icon {
         &:hover {
           color: $toolbar-icon-color;
         }
       }
     }
 
-    .mui-icon {
+    .mui-font-icon {
       color: $toolbar-icon-color;
       cursor: pointer;
       line-height: $toolbar-height;
@@ -63,19 +64,10 @@
       }
     }
 
-    .mui-icon-button {
-      margin-top: ($toolbar-height - $icon-size * 2) / 2;
-
-      .mui-icon {
-        line-height: 1;
-        padding-left: 0;
-      }
-    }
-
     &.mui-left {
       float: left;
 
-      .mui-drop-down-menu, .mui-icon, .mui-toolbar-separator, .mui-drop-down-icon  {
+      .mui-drop-down-menu, .mui-font-icon, .mui-toolbar-separator, .mui-drop-down-icon  {
         float: left;
       }
 

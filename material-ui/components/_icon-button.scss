@@ -1,5 +1,4 @@
 $icon-button-size: ($icon-size * 2);
-
 @include pulsate("icon-button-focus-ripple-pulsate");
 
 .mui-icon-button {
@@ -7,23 +6,28 @@ $icon-button-size: ($icon-size * 2);
   * { @include ease-out(); }
   position: relative;
   padding: ($icon-size / 2);
+  width: $icon-size * 2;
+  height: $icon-size * 2;
 
   .mui-focus-ripple {
     .mui-focus-ripple-inner {
-      @include pulsate-animation("icon-button-focus-ripple-pulsate");
       background-color: rgba(0,0,0,0.1);
       box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
       border: solid 6px $transparent;
       background-clip: padding-box;
+      @include pulsate-animation("icon-button-focus-ripple-pulsate");
     }
   }
 
-  .mui-icon-button-tooltip {  
+  .mui-icon-button-tooltip {
     margin-top: ($icon-button-size + 4);
   }
 
   &.mui-is-disabled {
-    color: lighten($body-text-color, 75%);
+    * {
+      color: lighten($body-text-color, 75%);
+      fill: lighten($body-text-color, 75%);
+    }
   }
 }
 

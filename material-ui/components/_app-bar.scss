@@ -1,5 +1,11 @@
+// NOTE: Variable originally declared at _icon-button.scss file, but it's also being used here
+// and it causes compilations errors, duplicated to solve for now. @janmyler
+$icon-button-size: ($icon-size * 2);
+
 .mui-app-bar {
   width: 100%;
+  min-height: $desktop-keyline-increment;
+
   background-color: $app-bar-color;
   z-index: 5;
 
@@ -9,8 +15,11 @@
   }
 
   .mui-icon-button {
-    margin-top: 8px;
-    color: $app-bar-text-color;
+    margin-top: (($app-bar-height - $icon-button-size) / 2);
+    * {
+      fill: $app-bar-text-color;
+      color: $app-bar-text-color;
+    }
   }
 
   .mui-app-bar-title {
@@ -24,7 +33,7 @@
   .mui-app-bar-navigation-icon-button {
     float: left;
     margin-right: 8px;
-    margin-left: -16px; 
+    margin-left: -16px;
   }
 
 }
