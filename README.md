@@ -30,7 +30,7 @@ h1 { text-decoration: blink; }
 
 If you don't want to dig into `node_modules` in your .scss files, you can download the sources:
 
-* [Download 0.5.0 version](https://github.com/gpbl/material-ui-sass/archive/v0.5.0.zip) - working with material-ui v0.5.0 
+* [Download 0.5.0 version](https://github.com/gpbl/material-ui-sass/archive/v0.5.0.zip) - working with material-ui v0.5.0
 * Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
 * Import `material-ui/main` into your main `.scss` file:
 
@@ -46,7 +46,7 @@ h1 { text-decoration: blink; }
 
 The Sass files work with the original [material-ui](https://github.com/callemall/material-ui) React components.
 
-You can customize the default values overriding those in [_custom-variables.scss](material-ui/variables/_custom-variables.scss). Include them before importing material-ui: 
+You can customize the default values overriding those in [_custom-variables.scss](material-ui/variables/_custom-variables.scss). Include them before importing material-ui:
 
 ```scss
 
@@ -81,11 +81,18 @@ The original version included a set of HTML tags: `h1`, `h2`... `h6`, `p` and `h
 I will try to keep the two frameworks in sync, but you can also help :-)
 If you find bugs or idea for improvements, feel free to [add a new issue](https://github.com/gpbl/material-ui-sass/issues/new).
 
-If you'd like to send pull requests, please try to adopt the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less). 
+If you'd like to send pull requests, please try to adopt the current styles and conventions. For now, they need to be close to the [original less code](https://github.com/callemall/material-ui/blob/master/src/less).
 
-### Development 
+### Development
 
 When converting to Sass, I've found the material-ui [docs site](https://github.com/callemall/material-ui/tree/master/docs) useful to preview my changes. After starting the doc site server, a watching gulp task overwrites the site's `main.css` with the Sass-compiled version. (This means you may need to sassify also the documentation site)
+
+#### Clone with submodules
+
+```
+git clone --recursive https://github.com/gpbl/material-ui-sass.git
+cd material-ui-sass
+```
 
 #### Start the dev environment
 
