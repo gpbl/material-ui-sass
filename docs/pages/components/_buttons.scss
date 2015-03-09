@@ -49,7 +49,7 @@
 }
 
 .example-button-icon {
-  .mui-text-full-white;
+  @extend .mui-text-full-white;
   height: 100%;
   display: inline-block;
   vertical-align: middle;

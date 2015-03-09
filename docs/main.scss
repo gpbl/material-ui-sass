@@ -4,6 +4,9 @@
 @import "../material-ui/main";
 @import "../material-ui/html";
 
+/* custom font icons */
+@import "font-icons/style.css";
+
 /* hightlight.js for syntax highlighting */
 //@import "monokai_sublime";
 @import "github";
@@ -22,9 +25,10 @@
 
 @import "pages/components/component-doc";
 @import "pages/components/buttons";
+@import "pages/components/switches";
+@import "pages/components/text-fields";
 @import "pages/components/icon";
 @import "pages/components/paper";
-@import "pages/components/toolbar";
 
 a {
   color: $accent-1-color;
