@@ -28,6 +28,9 @@ $left-nav-color: $white !default;
 $subheader-border-color: $border-color !default;
 $subheader-text-color: $primary-1-color !default;
 
+//Disabled Colors
+$disabled-color: rgba($body-text-color, 0.3);
+
 //Date Picker
 $date-picker-color: $primary-1-color !default;
 $date-picker-text-color: $white !default;
@@ -104,30 +107,38 @@ $input-placeholder-size: 13px !default;
 $input-error-color: red !default;
 $input-bar-height: 2px !default;
 
+// switches
+$switches-ripple-color: rgba($primary-1-color, 0.2) !default;
+
 // radio button
-$radio-button-size: 16px !default;
-$radio-button-border-color: black !default;
+$radio-button-size: 24px !default;
+$radio-button-border-color:  $body-text-color !default;
 $radio-button-background-color: white !default;
-$radio-button-check-color: black !default;
+$radio-button-checked-color: $primary-1-color !default;
+$radio-button-required-color: $primary-1-color !default;
+$radio-button-disabled-color: $disabled-color !default;
 
 // checkbox
-$checkbox-box-background-color: white !default;
-$checkbox-box-border-color: black !default;
-$checkbox-check-color: green !default;
+$checkbox-box-color: $body-text-color !default;
+$checkbox-checked-color: $primary-1-color !default;
+$checkbox-required-color: $primary-1-color !default;
+$checkbox-disabled-color: $disabled-color !default;
 
-// toast
-$mui-toast-color: white !default;
-$mui-toast-background-color: #323232 !default;
-$mui-toast-action-color: yellow !default;
+// snackbar
+$mui-snackbar-text-color: white !default;
+$mui-snackbar-background-color: #323232 !default;
+$mui-snackbar-action-color: $accent-1-color !default;
 
 // toggle
 $toggle-size: 20px !default;
-$toggle-track-on-color: $cyan-200 !default;
-$toggle-track-off-color: $min-black !default;
-$toggle-track-disabled-color: $faint-black !default;
 $toggle-thumb-on-color: $primary-1-color !default;
 $toggle-thumb-off-color: $grey-50 !default;
-$toggle-thumb-disabled-color: $grey-800 !default;
+$toggle-thumb-disabled-color: $grey-400 !default;
+$toggle-thumb-required-color: $primary-1-color !default;
+$toggle-track-on-color: fade-out($toggle-thumb-on-color, 0.5) !default;
+$toggle-track-off-color: $min-black !default;
+$toggle-track-disabled-color: $faint-black !default;
+$toggle-track-required-color: fade-out($toggle-thumb-required-color, 0.5) !default;
 
 // toolbar
 $toolbar-background-color: darken(#eeeeee, 5%) !default;
@@ -146,11 +157,6 @@ $slider-handle-size-active: $slider-handle-size * 2 !default;
 $slider-handle-size-disabled: 8px !default;
 $slider-handle-color-zero: $grey-400 !default;
 $slider-selection-color: $primary-3-color !default;
-
-// snackbar
-$mui-snackbar-text-color: white !default;
-$mui-snackbar-background-color: #323232 !default;
-$mui-snackbar-action-color: $accent-1-color !default;
 
 // layout
 $app-bar-height: $desktop-keyline-increment !default;
