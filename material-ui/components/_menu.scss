@@ -1,6 +1,3 @@
-// FIXME: should it stay here? @janmyler
-@include ripple-click-alt("menu-item-ripple-animation", darken($white, 20%), 250px);
-
 .mui-menu {
 
   * {@include ease-out(); }
