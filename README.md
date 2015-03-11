@@ -30,7 +30,7 @@ h1 { text-decoration: blink; }
 
 If you don't want to dig into `node_modules` in your .scss files, you can download the sources:
 
-* [Download 0.5.0 version](https://github.com/gpbl/material-ui-sass/archive/v0.5.0.zip) - working with material-ui v0.5.0
+* [Download 0.7.1 version](https://github.com/gpbl/material-ui-sass/archive/v0.7.1.zip) - working with material-ui v0.7.1
 * Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
 * Import `material-ui/main` into your main `.scss` file:
 
