@@ -5,7 +5,7 @@ material-ui-sass
 
 This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) React/CSS framework, which originally uses  [Less](https://github.com/callemall/material-ui) for the styles.
 
-Working with material-ui **v0.5.0**.
+Working with material-ui **v0.7.1**.
 
 ## Installation and first setup
 
