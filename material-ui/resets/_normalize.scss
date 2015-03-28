@@ -301,7 +301,7 @@ input[type="submit"] {
 
 button[disabled],
 html input[disabled] {
-  cursor: default;
+  cursor: default !important;
 }
 
 /**

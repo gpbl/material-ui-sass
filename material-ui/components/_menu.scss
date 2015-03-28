@@ -36,6 +36,11 @@
   .mui-nested-menu-item {
     position: relative;
 
+    &.mui-is-disabled {
+      color: $disabled-color;
+      cursor: default;
+    }
+
     &.mui-open {
       & > .mui-menu {
         opacity: 1;
