@@ -6,6 +6,7 @@ This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](ht
 Working with material-ui **v0.7.2**.
 
 [![Join the chat at https://gitter.im/gpbl/material-ui-sass](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gpbl/material-ui-sass?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![npm version](https://badge.fury.io/js/material-ui-sass.svg)](http://badge.fury.io/js/material-ui-sass)
 
 ## Installation and first setup
 
