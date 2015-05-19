@@ -3,7 +3,7 @@ material-ui-sass
 
 This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) React/CSS framework, which originally uses  [Less](https://github.com/callemall/material-ui) for the styles.
 
-Working with material-ui **v0.7.2**.
+Working with material-ui **v0.7.5**.
 
 [![Join the chat at https://gitter.im/gpbl/material-ui-sass](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gpbl/material-ui-sass?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm version](https://badge.fury.io/js/material-ui-sass.svg)](http://badge.fury.io/js/material-ui-sass)
@@ -31,7 +31,7 @@ h1 { text-decoration: blink; }
 
 If you don't want to dig into `node_modules` in your .scss files, you can download the sources:
 
-* [Download 0.7.2 version](https://github.com/gpbl/material-ui-sass/archive/v0.7.2.zip) - working with material-ui v0.7.2
+* [Download 0.7.5 version](https://github.com/gpbl/material-ui-sass/archive/v0.7.5.zip) - working with material-ui v0.7.2
 * Unzip and copy the **material-ui** directory into your project, usually where you put your styles.
 * Import `material-ui/main` into your main `.scss` file:
 

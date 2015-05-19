@@ -1,6 +1,6 @@
 {
   "name": "material-ui-sass",
-  "version": "0.7.2",
+  "version": "0.7.5",
   "description": "SASS version for the material-ui CSS framework",
   "main": "material-ui.scss",
   "scripts": {
