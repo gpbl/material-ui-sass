@@ -1,5 +1,7 @@
-material-ui-sass
-================
+material-ui-sass (discontinued)
+==============================
+
+> As material-ui 0.8 [moved to inline styles](https://github.com/callemall/material-ui/blob/master/CHANGELOG.md#080), this project has been discontinued.
 
 This is the [Sass](http://www.sass-lang.com) counterpart of the [material-ui](https://github.com/callemall/material-ui) React/CSS framework, which originally uses  [Less](https://github.com/callemall/material-ui) for the styles.
 
